@@ -18,19 +18,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="v2C-f0-DCK">
-                                <rect key="frame" x="16" y="469" width="343" height="322"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JpP-YA-Swb"/>
-                                </connections>
-                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DWl-aZ-T2P">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="St. Louis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzB-fy-dpv">
+                                <rect key="frame" x="148" y="85" width="79" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opy-Fh-T7R">
+                                <rect key="frame" x="158.66666666666666" y="111" width="58" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unM-kL-068">
+                                <rect key="frame" x="163.66666666666666" y="363" width="48" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy2-C3-ZjV">
+                                <rect key="frame" x="154" y="408" width="67" height="72"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="60"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noah_sunny" translatesAutoresizingMaskIntoConstraints="NO" id="GDm-b9-UxH">
+                                <rect key="frame" x="87.666666666666686" y="161" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="6fd-10-Cql"/>
+                                    <constraint firstAttribute="height" constant="200" id="RX3-8D-eCC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKR-LI-FXy">
+                                <rect key="frame" x="221" y="448" width="23" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.025838065729999998" green="0.59456668570000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hy2-C3-ZjV" firstAttribute="top" secondItem="unM-kL-068" secondAttribute="bottom" constant="25" id="1hf-hT-nhC"/>
+                            <constraint firstItem="DWl-aZ-T2P" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4K0-QH-aEh"/>
+                            <constraint firstAttribute="bottom" secondItem="DWl-aZ-T2P" secondAttribute="bottom" id="5f5-sb-ZMP"/>
+                            <constraint firstItem="unM-kL-068" firstAttribute="top" secondItem="GDm-b9-UxH" secondAttribute="bottom" constant="2" id="8ht-AC-O8g"/>
+                            <constraint firstItem="unM-kL-068" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HvQ-cz-o0I"/>
+                            <constraint firstItem="DWl-aZ-T2P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OUs-h5-xBc"/>
+                            <constraint firstItem="BzB-fy-dpv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="41" id="QGi-6U-hVi"/>
+                            <constraint firstItem="RKR-LI-FXy" firstAttribute="leading" secondItem="hy2-C3-ZjV" secondAttribute="trailing" id="U5u-4x-L4O"/>
+                            <constraint firstItem="DWl-aZ-T2P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VzE-oq-VZh"/>
+                            <constraint firstItem="GDm-b9-UxH" firstAttribute="top" secondItem="Opy-Fh-T7R" secondAttribute="bottom" constant="30" id="a0a-aY-GTX"/>
+                            <constraint firstItem="hy2-C3-ZjV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h6l-ez-xHm"/>
+                            <constraint firstItem="Opy-Fh-T7R" firstAttribute="top" secondItem="BzB-fy-dpv" secondAttribute="bottom" constant="2" id="kee-cr-mes"/>
+                            <constraint firstItem="GDm-b9-UxH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lvd-Mr-KyZ"/>
+                            <constraint firstItem="BzB-fy-dpv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sAg-BC-2Ts"/>
+                            <constraint firstItem="RKR-LI-FXy" firstAttribute="top" secondItem="hy2-C3-ZjV" secondAttribute="bottom" constant="-32" id="sxm-x0-gd1"/>
+                            <constraint firstItem="Opy-Fh-T7R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wKu-yU-2bC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="map" destination="v2C-f0-DCK" id="oLt-Eu-PGk"/>
+                        <outlet property="backGroundView" destination="DWl-aZ-T2P" id="IEg-Y0-4Wz"/>
+                        <outlet property="conditionImage" destination="GDm-b9-UxH" id="DKq-Ug-zKR"/>
+                        <outlet property="conditionLabel" destination="unM-kL-068" id="Dra-JF-r27"/>
+                        <outlet property="dayLabel" destination="Opy-Fh-T7R" id="6n4-fC-m6z"/>
+                        <outlet property="locationLabel" destination="BzB-fy-dpv" id="Z66-TC-qCf"/>
+                        <outlet property="tempLabel" destination="hy2-C3-ZjV" id="8qx-Rc-dFx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -38,4 +94,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="132.26600985221674"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="noah_sunny" width="187" height="224"/>
+    </resources>
 </document>

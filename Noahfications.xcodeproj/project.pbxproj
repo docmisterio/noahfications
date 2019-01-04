@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70FE27C91858E0EFB407F810 /* Pods_Noahfications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6F1D41B21871A24D125595 /* Pods_Noahfications.framework */; };
 		A48C791D21C8340500A972D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C791C21C8340500A972D8 /* AppDelegate.swift */; };
 		A48C791F21C8340500A972D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C791E21C8340500A972D8 /* ViewController.swift */; };
 		A48C792221C8340500A972D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48C792021C8340500A972D8 /* Main.storyboard */; };
 		A48C792421C8340600A972D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48C792321C8340600A972D8 /* Assets.xcassets */; };
 		A48C792721C8340600A972D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48C792521C8340600A972D8 /* LaunchScreen.storyboard */; };
 		A48C793221C8340600A972D8 /* NoahficationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C793121C8340600A972D8 /* NoahficationsUITests.swift */; };
+		FD662C98D01697E910B4D5A5 /* Pods_NoahficationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10111738DA2BA55543D59A76 /* Pods_NoahficationsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BC58DBC676F4575F62E961 /* Pods-NoahficationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoahficationsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoahficationsUITests/Pods-NoahficationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10111738DA2BA55543D59A76 /* Pods_NoahficationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoahficationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CF5FD267E68888F78B0F90 /* Pods-Noahfications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noahfications.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noahfications/Pods-Noahfications.release.xcconfig"; sourceTree = "<group>"; };
+		A2E048FA4E016B062BA2064C /* Pods-Noahfications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noahfications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noahfications/Pods-Noahfications.debug.xcconfig"; sourceTree = "<group>"; };
 		A48C791921C8340500A972D8 /* Noahfications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noahfications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48C791C21C8340500A972D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48C791E21C8340500A972D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		A48C792D21C8340600A972D8 /* NoahficationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoahficationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48C793121C8340600A972D8 /* NoahficationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahficationsUITests.swift; sourceTree = "<group>"; };
 		A48C793321C8340600A972D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6F1D41B21871A24D125595 /* Pods_Noahfications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noahfications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F141DEC5692AC39B3A38BDE4 /* Pods-NoahficationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoahficationsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoahficationsUITests/Pods-NoahficationsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FE27C91858E0EFB407F810 /* Pods_Noahfications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD662C98D01697E910B4D5A5 /* Pods_NoahficationsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				A48C791B21C8340500A972D8 /* Noahfications */,
 				A48C793021C8340600A972D8 /* NoahficationsUITests */,
 				A48C791A21C8340500A972D8 /* Products */,
+				BBCDC79A9709E42198F0C693 /* Pods */,
+				F39A6D24DF09CC936C9EF2D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = NoahficationsUITests;
 			sourceTree = "<group>";
 		};
+		BBCDC79A9709E42198F0C693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2E048FA4E016B062BA2064C /* Pods-Noahfications.debug.xcconfig */,
+				78CF5FD267E68888F78B0F90 /* Pods-Noahfications.release.xcconfig */,
+				01BC58DBC676F4575F62E961 /* Pods-NoahficationsUITests.debug.xcconfig */,
+				F141DEC5692AC39B3A38BDE4 /* Pods-NoahficationsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F39A6D24DF09CC936C9EF2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6F1D41B21871A24D125595 /* Pods_Noahfications.framework */,
+				10111738DA2BA55543D59A76 /* Pods_NoahficationsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A48C793621C8340600A972D8 /* Build configuration list for PBXNativeTarget "Noahfications" */;
 			buildPhases = (
+				6B1B063193351E119C80E288 /* [CP] Check Pods Manifest.lock */,
 				A48C791521C8340500A972D8 /* Sources */,
 				A48C791621C8340500A972D8 /* Frameworks */,
 				A48C791721C8340500A972D8 /* Resources */,
+				4BA899A815C6591F309290CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A48C793921C8340600A972D8 /* Build configuration list for PBXNativeTarget "NoahficationsUITests" */;
 			buildPhases = (
+				7B809BB5BEDFAF0D2FCCCC30 /* [CP] Check Pods Manifest.lock */,
 				A48C792921C8340600A972D8 /* Sources */,
 				A48C792A21C8340600A972D8 /* Frameworks */,
 				A48C792B21C8340600A972D8 /* Resources */,
@@ -191,6 +226,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BA899A815C6591F309290CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Noahfications/Pods-Noahfications-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noahfications/Pods-Noahfications-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1B063193351E119C80E288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noahfications-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B809BB5BEDFAF0D2FCCCC30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoahficationsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A48C791521C8340500A972D8 /* Sources */ = {
@@ -358,6 +466,7 @@
 		};
 		A48C793721C8340600A972D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E048FA4E016B062BA2064C /* Pods-Noahfications.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +485,7 @@
 		};
 		A48C793821C8340600A972D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CF5FD267E68888F78B0F90 /* Pods-Noahfications.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +504,7 @@
 		};
 		A48C793A21C8340600A972D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BC58DBC676F4575F62E961 /* Pods-NoahficationsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -414,6 +525,7 @@
 		};
 		A48C793B21C8340600A972D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F141DEC5692AC39B3A38BDE4 /* Pods-NoahficationsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
