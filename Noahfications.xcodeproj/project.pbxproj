@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		70FE27C91858E0EFB407F810 /* Pods_Noahfications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6F1D41B21871A24D125595 /* Pods_Noahfications.framework */; };
+		A417B5F721E43C4A00C379A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A417B5F621E43C4A00C379A5 /* Assets.xcassets */; };
 		A48C791D21C8340500A972D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C791C21C8340500A972D8 /* AppDelegate.swift */; };
 		A48C791F21C8340500A972D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C791E21C8340500A972D8 /* ViewController.swift */; };
 		A48C792221C8340500A972D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48C792021C8340500A972D8 /* Main.storyboard */; };
-		A48C792421C8340600A972D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48C792321C8340600A972D8 /* Assets.xcassets */; };
 		A48C792721C8340600A972D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48C792521C8340600A972D8 /* LaunchScreen.storyboard */; };
 		A48C793221C8340600A972D8 /* NoahficationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C793121C8340600A972D8 /* NoahficationsUITests.swift */; };
 		FD662C98D01697E910B4D5A5 /* Pods_NoahficationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10111738DA2BA55543D59A76 /* Pods_NoahficationsUITests.framework */; };
@@ -32,11 +32,11 @@
 		10111738DA2BA55543D59A76 /* Pods_NoahficationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoahficationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CF5FD267E68888F78B0F90 /* Pods-Noahfications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noahfications.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noahfications/Pods-Noahfications.release.xcconfig"; sourceTree = "<group>"; };
 		A2E048FA4E016B062BA2064C /* Pods-Noahfications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noahfications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noahfications/Pods-Noahfications.debug.xcconfig"; sourceTree = "<group>"; };
+		A417B5F621E43C4A00C379A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/iOS_Weather_Learn_Addict/Weather/Weather/Assets.xcassets; sourceTree = "<group>"; };
 		A48C791921C8340500A972D8 /* Noahfications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noahfications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48C791C21C8340500A972D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48C791E21C8340500A972D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A48C792121C8340500A972D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A48C792321C8340600A972D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A48C792621C8340600A972D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A48C792821C8340600A972D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48C792D21C8340600A972D8 /* NoahficationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoahficationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +92,7 @@
 				A48C791C21C8340500A972D8 /* AppDelegate.swift */,
 				A48C791E21C8340500A972D8 /* ViewController.swift */,
 				A48C792021C8340500A972D8 /* Main.storyboard */,
-				A48C792321C8340600A972D8 /* Assets.xcassets */,
+				A417B5F621E43C4A00C379A5 /* Assets.xcassets */,
 				A48C792521C8340600A972D8 /* LaunchScreen.storyboard */,
 				A48C792821C8340600A972D8 /* Info.plist */,
 			);
@@ -213,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48C792721C8340600A972D8 /* LaunchScreen.storyboard in Resources */,
-				A48C792421C8340600A972D8 /* Assets.xcassets in Resources */,
+				A417B5F721E43C4A00C379A5 /* Assets.xcassets in Resources */,
 				A48C792221C8340500A972D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
